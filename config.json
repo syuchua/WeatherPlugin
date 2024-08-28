@@ -1,0 +1,4 @@
+{
+    "WEATHER_BASE_URL": "https://restapi.amap.com/v3/weather/weatherInfo",
+    "AMAP_API_KEY": "your-api-key"
+}
