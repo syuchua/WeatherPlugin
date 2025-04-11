@@ -1,4 +1,4 @@
-import aiohttp
+import aiohttp, os
 from typing import Optional
 from rapidfuzz import process, fuzz
 from app.plugin.plugin_base import PluginBase
