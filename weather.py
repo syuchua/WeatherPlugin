@@ -1,8 +1,8 @@
-import json
-import os
 import aiohttp
 from typing import Optional
 from rapidfuzz import process, fuzz
+from app.plugin.plugin_base import PluginBase
+from app.logger import logger
 from qfurina.api import PluginBase, logger
 from .city_codes import get_city_code, get_city_name, CITY_CODES
 
